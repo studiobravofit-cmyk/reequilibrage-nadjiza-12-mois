@@ -1035,7 +1035,7 @@ var QB=["Quel fruit contient le moins de sucre ?|Fraises|Banane|Raisin|Mangue|0|
 "Parler de tes difficultés à ta coach…|Aide à ajuster le programme|Est inutile|Est interdit|Fait perdre du temps|0|On avance ensemble.",
 "Le stress chronique peut…|Augmenter l'appétit et le ventre|Faire maigrir à coup sûr|N'avoir aucun effet|Remplacer le sport|0|Respiration, marche et sommeil sont tes alliés.",
 "Une affirmation positive répétée chaque jour…|Aide à construire une image de soi positive|Ne sert à rien|Fait grossir|Remplace les repas|0|Ce que tu te répètes finit par te construire.",
-"Ton objectif d'âge métabolique à 12 mois ?|Sous 30 ans|60 ans|Aucun objectif|45 ans|0|Aujourd'hui 40 : on va le faire redescendre.",
+"Ton objectif d'âge métabolique à 12 mois ?|Sous 30 ans|60 ans|Aucun objectif|45 ans|0|Aujourd'hui 41 : on va le faire redescendre.",
 "La meilleure version de toi, c'est…|Une Nadjiza parfaite|Une Nadjiza régulière et bienveillante avec elle-même|Une autre personne|Impossible|1|La bienveillance tient plus longtemps que la sévérité."];
 var QD=QB.map(function(s){var a=s.split('|'),f=a.pop(),ok=+a.pop();return{q:a[0],o:a.slice(1),ok:ok,f:f}});
 var QN=QD.length,PER=5,ord=sh(QN,Math.floor(DN*PER/QN)+1),pos=(DN*PER)%QN,TQ=[];for(var z=0;z<PER;z++)TQ.push(QD[ord[(pos+z)%QN]]);
